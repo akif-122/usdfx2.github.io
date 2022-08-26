@@ -1,0 +1,696 @@
+@media screen and (max-width: 1199px){
+
+/*
+===========================================
+	HEADER SECTION START
+===========================================
+*/
+
+
+.conversion{
+	padding-left: 30px;
+
+}
+.conversion h1{
+	font-size: 34px;
+}
+.conversion h1 img{
+	width: 160px;
+}
+
+.conversion p{
+	font-size: 24px;
+}
+.header-section .exchange .exchange-box .dropdown .selected span{
+	font-size: 20px;
+}
+/*
+===========================================
+	HEADER SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	CARD SECTION START
+===========================================
+*/
+
+.card-section .w-card{
+	box-shadow: 0px 5px 35px -30px #141C2D;
+	margin: 15px 0;
+}
+/*
+===========================================
+	CARD SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	SEND MONEY SECTION START
+===========================================
+*/
+.sendMoney-section{
+	margin: 60px 0;
+	margin-bottom: 0;
+	padding: 140px 0;
+}
+.sendcontainer{
+	padding: 0 30px;
+}
+.send-btn{
+	margin-top: 50px;
+
+}
+
+/*
+===========================================
+	SEND MONEY SECTION END
+===========================================
+*/
+
+
+
+}
+
+
+@media screen and (max-width: 991px){
+/*
+===========================================
+	MOBILE MENU START
+===========================================
+*/
+body{
+	position: relative;
+}
+
+.mobile-menu{
+	display: block;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 350px;
+	height: 100vh;
+	padding-top: 15px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 5px 70px -40px #141C2D;
+	z-index: 100;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	opacity: 0;
+	pointer-events: none;
+
+}
+.mobile-menu.active{
+	opacity: 1;
+	pointer-events: auto;
+	right: 0%;
+}
+.m-close{
+	margin-right: 20px;
+}
+.m-close span{
+	font-size: 20px;
+}
+.mobile-menu .nav ul{
+	width: 100%
+}
+.mobile-menu .nav ul li{
+	width: 100%;
+}
+.mobile-menu .nav ul li a{
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #141C2D;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+/*
+===========================================
+	MOBILE MENU END
+===========================================
+*/
+
+
+/*
+===========================================
+	HEADER SECTION START
+===========================================
+*/
+
+.header-section .exchange{
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+	width: 80%;
+	margin: 20px auto;
+
+}
+
+
+.conversion{
+	clip-path: polygon(0 0, 100% 0, 93% 100%, 0% 100%);
+	padding: 100px 40px;
+	padding-left: 40px;
+	background: #fff;
+}
+.conversion h1{
+	font-size: 50px;
+	color: #141C2D;
+}
+.conversion p{
+	font-size: 22px;
+	color: #849FBB;
+	margin-bottom: 50px;
+}	
+.conversion span{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2acf90;
+	font-weight: 300;
+}
+.conversion select{
+	width: 170px;
+	margin-right: 10px;
+	height: 50px;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.18);
+	border-radius: 5px;
+	outline: none;
+}
+.conversion a{
+	font-size: 17px;
+	font-weight: 500;
+	background: #2acf90;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+/*
+===========================================
+	HEADER SECTION END
+===========================================
+*/
+
+
+}
+
+@media screen and (max-width: 767px){
+
+
+/*
+===========================================
+	HEADER SECTION START
+===========================================
+*/
+
+.header-section .exchange .exchange-box .input input{
+	font-size: 24px;
+}
+
+.header-section .exchange .exchange-box .dropdown .selected span{
+	font-size: 16px;
+
+}
+
+
+
+
+.exchange-row{
+	margin: 5px 0;
+}
+
+
+.exchange-row .left p{
+	font-size: 16px;
+
+}
+.exchange-row .right p{
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+
+
+
+.exchange-btn a{
+	padding: 15px;
+	font-size: 20px;
+}
+
+
+
+
+.conversion h1{
+	font-size: 28px;
+}
+.conversion p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}	
+.conversion span{
+	font-size: 14px;
+}
+/*
+===========================================
+	HEADER SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	TRANSFER SECTION START
+===========================================
+*/
+.transfer-section{
+	padding: 40px 0;
+}
+.transfer-section .container{
+	max-width: 100% !important;
+}
+.transfer-section h3{
+	font-size: 24px;
+}
+.transfer-section p{
+	font-size: 14px;
+}
+.transfer-section .currency-btn{
+	max-width: 100%;
+}
+.transfer-section .currency-btn a{
+	font-size: 15px;
+}
+
+/*
+===========================================
+	TRANSFER SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	SEND MONEY SECTION START
+===========================================
+*/
+.sendMoney-section{
+	padding: 60px 0;
+}
+
+/*
+===========================================
+	SEND MONEY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	GET STARTED SECTION START
+===========================================
+*/
+.get-started-section{
+	background: linear-gradient(225deg,#16c49c 14%,#1bd18c 92%);
+	margin-bottom: 50px;
+	padding: 30px 10px;
+}
+.get-started-section .container{
+	max-width: 100% !important;
+	padding: 0;
+}
+.get-started-section .get-left{
+	margin: 15px 0;
+}
+.get-started-section .get-left h4{
+	font-size: 20px;
+}
+.get-started-section .get-left p{
+	font-size: 14px;
+}
+.get-started-section .get-right.get-btns a{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 12px 17px;
+	border-radius: 5px;
+	margin-right: 5px;
+
+}
+.get-started-section .get-right.get-btns a:hover{
+	transform: translateY(-10px);
+	box-shadow: 0px 15px 60px -20px #141C2D;
+
+}
+.get-started-section .get-right.get-btns a.btn1{
+	color: #fff;
+	background: #33D4B1;
+}
+.get-started-section .get-right.get-btns a.btn2{
+	color: #00BB8E;
+	background: #fff;
+}
+/*
+===========================================
+	GET STARTED SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	FOOTER SECTION START
+===========================================
+*/
+.footer-para{
+	width: 100%;
+	margin: auto;
+}
+/*
+===========================================
+	FOOTER SECTION END
+===========================================
+*/
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+.mobile-menu{
+	width: 100%;
+}
+/*
+===========================================
+	HEADER SECTION START
+===========================================
+*/
+
+.exchange >p,
+.blockhain > p{
+	font-size: 12px;
+}
+
+.blockhain .blockchain-type{
+	border: 1px solid #0095CF;
+	border-radius: 2px;
+	padding: 2px 2px;
+	margin-bottom: 20px;
+}
+.select-blockchain .selected-block i{
+	font-size: 20px;
+}
+
+.select-blockchain .selected-block h5{
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+	margin-left: 5px;
+	color: #3F568E;
+}
+.block-transact .trans{
+	margin: 0 10px;
+	position: relative;
+}
+.block-transact .trans small{
+	font-size: 8px;
+	color: #999999;
+	white-space: nowrap;
+}
+.block-transact .trans h6{
+	font-size: 13px;
+	font-weight: 600;
+	color: #0095CF;
+}
+
+.header-section .exchange{
+	background: #fff;
+	border-radius: 8px;
+	padding: 15px 10px;
+	width: 96%
+}
+.header-section .exchange .exchange-box{
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin-bottom: 15px;
+}
+
+
+.header-section .exchange .exchange-box .input input{
+	font-size: 20px;
+}
+
+
+.header-section .exchange .exchange-box .dropdown .selected img{
+	left: 5%;
+	width: 25%;
+	min-width: 20px;
+
+
+}
+.header-section .exchange .exchange-box .dropdown .selected span{
+	margin-left: 35px;
+	font-size: 14px;
+}
+.header-section .exchange .exchange-box .dropdown .selected i{
+	font-size: 18px;
+}
+
+
+
+
+
+.exchange-row .left p{
+	font-size: 14px;
+}
+.exchange-row .right p{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+
+
+
+.exchange-btn a{
+	padding: 14px;
+	font-size: 15px;
+}
+
+.radialProgressBar {
+  width: 17px;
+  height: 17px;
+}
+
+
+.conversion{
+
+	padding: 50px 30px;
+	padding-left: 30px;
+}
+.conversion h1{
+	font-size: 24px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.conversion h1 
+.conversion p{
+	font-size: 15px;
+	margin-bottom: 30px;
+}	
+.conversion span{
+	font-size: 13px;
+}
+
+.conversion a{
+	font-size: 15px;
+	font-weight: 500;
+	background: #2acf90;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+
+.cr-value select{
+	width: 90%;
+	margin-right: 0;
+}
+.cr-value .angle{
+	transform: rotate(90deg);
+}
+.cr-value .conversion-btn{
+	width: 90%;
+	margin: auto;
+	margin-left: auto;
+}
+.cr-value .conversion-btn p{
+	width: 100%;
+}
+/*
+===========================================
+	HEADER SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	CARD SECTION START
+===========================================
+*/
+
+
+.card-section .w-card img{
+	max-width: 50px;
+}
+.card-section .w-card h2{
+	font-size: 24px;
+
+}
+.card-section .w-card p{
+	font-size: 14px;
+}
+.card-section .w-card a{
+	font-size: 14px;
+}
+
+/*
+===========================================
+	CARD SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	SEND MONEY SECTION START
+===========================================
+*/
+.sendMoney-section{
+	margin: 40px 0;
+	margin-bottom: 0;
+	padding: 20px 0;
+	padding-bottom: 60px;
+
+}
+.sendcontainer{
+	padding: 0 20px;
+}
+.sendMoney-section h2{
+	font-size: 24px;
+	margin: 10px 0;
+	margin-bottom: 20px;
+}
+.sendMoney-section h2 span{
+	color: #9BDBC8;
+}
+
+
+.sendMoney-section .m-card img{
+	max-width: 50px;
+}
+.sendMoney-section .m-card span.card-no{
+	font-size: 28px;
+
+}
+.sendMoney-section .m-card a{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 20px;
+} 
+
+.sendMoney-section .m-card a img{
+	width: 60px;
+	margin-bottom: 20px;
+}
+.sendMoney-section .m-card a p{
+	font-size: 17px;
+	font-weight: 600;
+	/*color: #141C2D;*/
+	color: #476790;
+}
+
+.send-btn{
+	margin-top: 20px;
+
+}
+.send-btn a{
+	font-size: 14px;
+}
+
+/*
+===========================================
+	SEND MONEY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	GET STARTED SECTION START
+===========================================
+*/
+.get-started-section{
+	text-align: center;
+}
+.get-started-section .get-left{
+	margin: 15px 0;
+	margin-bottom: 20px;
+}
+/*
+===========================================
+	GET STARTED SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	FOOTER SECTION START
+===========================================
+*/
+.footer-section h6{
+	font-size: 16px;
+}
+
+.footer-section .para p{
+	margin-bottom: 40px;
+}
+
+
+.footer-para{
+	width: 95%;
+	margin: 20px auto;
+}
+/*
+===========================================
+	FOOTER SECTION END
+===========================================
+*/
+
+
+.exchange-Menu span.disabled{
+	font-size: 13px;
+}
+.exchange-Menu a{
+	font-size: 14px;
+
+}
+
+.exchange-Menu a span{
+	font-size: 14px;
+}
+
+
+
+}
